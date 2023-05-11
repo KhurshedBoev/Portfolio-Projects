@@ -9,7 +9,7 @@ Every time a user runs a message generator program, they should get a new, rando
 + Build a message generator program using JavaScript
 + Use Git version control
 + Use command line
-+ Develop locally on your computer
++ Develop locally on your compugit ter
 #### Prerequisites:
 + JavaScript
 + Git and GitHub
