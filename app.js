@@ -26,4 +26,12 @@ let inspire2 = ['"The best way to predict the future is to create it." - Abraham
 let inspire3 = ['Go for it!', 'Just do it!', 'Dream BIG!', '"Believe and achieve!"', '"Carpe diem!"', 
 '"Push the limits!"', '"Never give up!"', '"Keep going!"', '"Stay focused!"', '"Own your life." - Oprah Winfrey'];
 
-console.log(inspire3)
+
+function inspire (arr1, arr2, arr3) {
+    let nestArr = [arr1, arr2, arr3];
+    let nestRandArr = nestArr[Math.floor(Math.random() * nestArr.length)];
+
+    return nestRandArr[Math.floor(Math.random() * nestRandArr.length)];
+   
+}
+console.log(inspire(inspire1, inspire2, inspire3))
